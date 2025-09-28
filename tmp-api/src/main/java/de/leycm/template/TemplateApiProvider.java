@@ -66,11 +66,13 @@ public final class TemplateApiProvider {
      * Exception thrown when the API is requested before it has been loaded.
      */
     private static final class NotLoadedException extends IllegalStateException {
-        private static final String MESSAGE = "The Template API isn't loaded yet!\n" +
-                "Possible reasons:\n" +
-                "  a) Template core module not started or failed to load\n" +
-                                "  b) Accessing TemplateApiProvider.get() too early\n" +
-                "  c) You shaded the API incorrectly into your jar\n";
+        private static final String MESSAGE = """
+                The Template API isn't loaded yet!
+                Possible reasons:
+                  a) Template core module not started or failed to load
+                  b) Accessing TemplateApiProvider.get() too early
+                  c) You shaded the API incorrectly into your jar
+                """;
 
         NotLoadedException() {
             super(MESSAGE);
