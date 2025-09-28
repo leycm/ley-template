@@ -50,6 +50,9 @@ public final class TemplateApiProvider {
      */
     @ApiStatus.Internal
     public static void register(TemplateApi api) {
+        if (instance != null) {
+            throw new IllegalStateException("Template API already registered");
+        }
         instance = api;
     }
 
