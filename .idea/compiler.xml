@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="ley-template.api.main" />
+        <module name="ley-template.common.main" />
+        <module name="ley-template.common.test" />
+        <module name="ley-template.api.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21">
+      <module name="LeyTemplate" target="24" />
+      <module name="LeyTemplate.main" target="24" />
+      <module name="LeyTemplate.test" target="24" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ley-template.api" options="-Xlint:-processing" />
+      <module name="ley-template.api.main" options="-Xlint:-processing" />
+      <module name="ley-template.api.test" options="-Xlint:-processing" />
+      <module name="ley-template.common" options="-Xlint:-processing" />
+      <module name="ley-template.common.main" options="-Xlint:-processing" />
+      <module name="ley-template.common.test" options="-Xlint:-processing" />
+      <module name="tmp-api.LeyTemplate.api" options="-Xlint:-processing" />
+      <module name="tmp-api.LeyTemplate.api.main" options="-Xlint:-processing" />
+      <module name="tmp-api.LeyTemplate.api.test" options="-Xlint:-processing" />
+      <module name="tmp-common.LeyTemplate.common" options="-Xlint:-processing" />
+      <module name="tmp-common.LeyTemplate.common.main" options="-Xlint:-processing" />
+      <module name="tmp-common.LeyTemplate.common.test" options="-Xlint:-processing" />
+    </option>
+  </component>
+</project>
