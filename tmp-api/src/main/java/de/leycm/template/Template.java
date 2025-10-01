@@ -9,6 +9,7 @@
  * Copyright (c) contributors
  */
 package de.leycm.template;
+
 /**
  * <p>
  * Central access class for the Template API.

@@ -10,14 +10,13 @@
  */
 package de.leycm.template;
 
-
 import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 
 /**
  * <p>
  * Provides static access to the {@link TemplateApi} instance.
- * Similar to LuckPermsProvider, this allows users to retrieve the API implementation
+ * This allows users to retrieve the API implementation
  * without directly depending on the core implementation.
  * </p>
  */
